@@ -1,5 +1,7 @@
+import Protected from "app/Packs/components/templates/Protected";
+
 const App = () => {
-  return <div>Hello World</div>;
+  return <Protected />;
 };
 
 export default App;

@@ -11,10 +11,11 @@
       "@providers/*": ["app/Providers/*"],
       "@support/*": ["app/Support/*"],
       "@interfaces/*": ["app/Interfaces/*"],
-      "@views/*": ["resources/views/*"],
-      "@assets/*": ["resources/assets/*"]
+      "@views/*": ["app/Packs/views/*"],
+      "@assets/*": ["app/Packs/assets/*"],
+      "@components/*": ["app/Packs/components/*"]
     },
-    "target": "es5",
+    "target": "es6",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
